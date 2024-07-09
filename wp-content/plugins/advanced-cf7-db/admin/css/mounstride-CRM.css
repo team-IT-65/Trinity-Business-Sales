@@ -1,0 +1,219 @@
+/* Fonts */
+@font-face {
+    font-family: 'poppins';
+    src: url('fonts/poppins-regular-webfont.eot');
+    src: url('fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('fonts/poppins-regular-webfont.woff') format('woff'),
+         url('fonts/poppins-regular-webfont.ttf') format('truetype'),
+         url('fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('fonts/poppins-semibold-webfont.eot');
+    src: url('fonts/poppins-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('fonts/poppins-semibold-webfont.woff') format('woff'),
+         url('fonts/poppins-semibold-webfont.ttf') format('truetype'),
+         url('fonts/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+*,*:focus,*:before,*:after{
+	box-sizing:border-box
+}
+
+.mountstride-crm-wrapper .tbl{
+	display:table;
+	height:100%;
+	width:100%;
+	table-layout:fixed;
+}
+.mountstride-crm-wrapper .tbl-cell{
+	display:table-cell;
+	height:100%;
+	vertical-align:middle;
+}
+.mountstride-crm-wrapper{
+	background-color:#fff;
+	margin-left:-20px;
+	font-family: 'poppins',Sans-serif;
+	font-weight:400;
+	font-size:14px;
+	line-height:25px;
+	color:#6a6a6a;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.mountstride-crm-wrapper h1,.mountstride-crm-wrapper h2,.mountstride-crm-wrapper h3,.mountstride-crm-wrapper h4,.mountstride-crm-wrapper h5,.mountstride-crm-wrapper h6{
+	margin:0px 0px 10px 0px;
+	line-height:normal;
+	font-weight:600;
+}
+.mountstride-crm-wrapper .container{
+	max-width: 1000px;
+    margin: 0px auto;
+    clear: both;
+	padding: 0px 15px 0 25px;
+}
+.mountstride-crm-wrapper .top-section{
+	padding:50px 0px;
+	background-color:#e7f5ff;
+	text-align:center;
+	margin:40px 0px;
+}
+.mountstride-crm-wrapper .header-typ1{
+	font-size: 35px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.4px;
+    color: #000;
+}
+.mountstride-crm-wrapper .header-typ2{
+	font-size: 26px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.4px;
+    color: #000;
+	margin-bottom:15px;
+}
+.mountstride-crm-wrapper .header-typ3{
+	color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: .2px;
+}
+.mountstride-crm-wrapper .base-text{
+	max-width: 655px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #333;
+	font-family: 'poppins';
+    font-weight: 400;
+}
+.mountstride-crm-wrapper .top-section .base-text{
+	max-width: 655px;
+    margin: 0 auto;
+}
+.mountstride-crm-wrapper .bottom-section{
+	padding-top:20px;
+	padding-bottom:60px;
+}
+.mountstride-crm-wrapper .features-box-wrapper .features-box{
+	margin-bottom:60px;
+}
+.mountstride-crm-wrapper .features-box .image .img-responsive{
+	display:block;
+	max-width:100%;
+	height:auto;
+	margin:0 auto;
+}
+.mountstride-crm-wrapper .features-box .info-section{
+	padding:10px;
+}
+.mountstride-crm-wrapper .features-box .info-image-section{
+	padding:10px;
+}
+.mountstride-crm-wrapper .btn-outer{
+	text-align:center;
+}
+.mountstride-crm-wrapper .btn-typ1{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 11px 15px;
+    text-transform: capitalize;
+    text-align: center;
+    border: 1px solid #ff536b;
+    background-color: #ff536b;
+    color: #fff;
+    border-radius: 25px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    display: inline-block;
+    min-width: 210px;
+	text-decoration:none;
+}
+.mountstride-crm-wrapper  .btn-typ1:hover {
+    background-color: #fff;
+    color: #ff536b;
+    border-color: #ff536b;
+	text-decoration:none;
+}
+
+/* Responsive CSS */
+
+@media (min-width: 568px) {
+	.mountstride-crm-wrapper .visible-xs{
+		display:none !important;
+	}
+}
+@media (max-width: 1199px) {
+	.mountstride-crm-wrapper .container{
+		max-width:700px;
+	}
+}
+@media (max-width: 991px) {
+	.mountstride-crm-wrapper .header-typ1{
+		font-size:26px;
+	}
+	.mountstride-crm-wrapper .header-typ2{
+		font-size:20px;
+	}
+	.mountstride-crm-wrapper .header-typ3{
+		font-size:22px;
+	}
+	.mountstride-crm-wrapper .top-section .base-text{
+		max-width:530px;
+	}
+}
+@media (max-width: 767px) {
+	.mountstride-crm-wrapper h1, .mountstride-crm-wrapper h2, .mountstride-crm-wrapper h3, .mountstride-crm-wrapper h4, .mountstride-crm-wrapper h5, .mountstride-crm-wrapper h6{
+		margin-bottom:10px;
+	}
+	.mountstride-crm-wrapper .header-typ1{
+		font-size:20px;
+	}
+	.mountstride-crm-wrapper .header-typ2{
+		font-size:16px;
+		margin-bottom:10px;
+	}
+	.mountstride-crm-wrapper .header-typ3{
+		font-size:20px;
+	}
+	.mountstride-crm-wrapper .top-section .base-text{
+		font-size:15px;
+		max-width:430px;
+	}
+}
+@media (max-width: 567px) {
+	.mountstride-crm-wrapper .tbl{
+		display:block;
+	}
+	.mountstride-crm-wrapper .tbl-cell{
+		display:block;
+		width:100%;
+	}
+	.mountstride-crm-wrapper .features-box .image{
+		margin-bottom:15px;
+	}
+	.mountstride-crm-wrapper .hidden-xs{
+		display:none !important;
+	}
+}
+
+
+
+
+
+
+

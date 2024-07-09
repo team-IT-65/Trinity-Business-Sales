@@ -1,0 +1,771 @@
+# Copyright (C) 2018 Advanced CF7 DB
+# This file is distributed under the same license as the Advanced CF7 DB package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced CF7 DB 1.5.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/advanced-cf7-db\n"
+"POT-Creation-Date: 2018-10-29 10:33:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-advanced-cf7-db-admin.php:157
+msgid "Import CSV"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:158 admin/partials/shortcode.php:49
+msgid "Developer Support"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:159 admin/partials/extension.php:81
+msgid "Extensions"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:281
+msgid "Export to..."
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:282
+msgid "CSV"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:283
+msgid "Excel"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:284
+msgid "PDF"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:286
+msgid "Export"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:298
+msgid "Type something..."
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:299
+msgid "Search"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:315
+msgid ""
+"To change the Field title, Hide field and change the position of fields "
+"using Drag and Drop from here."
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:316
+msgid "Display Settings"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:327
+msgid "Edit Information"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:328
+msgid "Edit"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:348
+msgid ""
+"You can rename the Field title, Hide field and change the position of fields "
+"using Drag and Drop from here."
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:361
+msgid "Show record"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:435
+#: admin/class-advanced-cf7-db-admin.php:587
+msgid "Save Changes"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:492
+msgid "Field Type"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:521
+#: admin/class-advanced-cf7-db-admin.php:550
+#: admin/class-advanced-cf7-db-admin.php:577
+#: admin/class-advanced-cf7-db-admin.php:594
+#: includes/vsz-cf7-db-function.php:312 includes/vsz-cf7-db-function.php:328
+#: includes/vsz-cf7-db-function.php:340 includes/vsz-cf7-db-function.php:352
+#: includes/vsz-cf7-db-function.php:364 includes/vsz-cf7-db-function.php:377
+#: includes/vsz-cf7-db-function.php:388 includes/vsz-cf7-db-function.php:399
+msgid "Loading..."
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:996
+msgid "You do not have permission to upload files."
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:999
+msgid "Not_accessed_to_upload_file"
+msgstr ""
+
+#: admin/class-advanced-cf7-db-admin.php:1016
+msgid "Invalid_file_type._File_type_not_defined."
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:15
+#: admin/partials/import_cf7_csv.php:16 admin/partials/shortcode.php:16
+msgid "Please activate Contact Form plugin first."
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:20
+#: admin/partials/import_cf7_csv.php:21 admin/partials/shortcode.php:21
+msgid "Please update latest version for Contact Form plugin first."
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:40
+#: admin/partials/import_cf7_csv.php:37
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:72
+msgid "View Form Information"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:78
+#: admin/partials/import_cf7_csv.php:70 admin/partials/import_cf7_csv.php:73
+msgid "Select Form name"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:82
+msgid "Select form name"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:309
+msgid "From"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:310
+msgid "To"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:311
+msgid "Search By Date"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:317
+msgid "Reset All"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:324
+msgid "Select bulk action"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:326
+msgid "Bulk Actions"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:330
+msgid "Apply"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:335
+msgid "item"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:336
+msgid "items"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:342
+msgid "&laquo;"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:343
+msgid "&raquo;"
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:424
+msgid "No records found."
+msgstr ""
+
+#: admin/partials/contact_form_listing.php:482
+msgid "Currently not submission any form data."
+msgstr ""
+
+#: admin/partials/extension.php:85
+msgid "You may be interested in our other popular WordPress plugins:"
+msgstr ""
+
+#: admin/partials/extension.php:86
+msgid "Make your site <i><b> do more </b></i> today."
+msgstr ""
+
+#: admin/partials/extension.php:95
+msgid "Schedule Report For Advanced CF7 DB"
+msgstr ""
+
+#: admin/partials/extension.php:97
+msgid ""
+"This plugin will do the same and send the email as per schedule set(Daily, "
+"Monthly, Weekly or Yearly) with report attachment."
+msgstr ""
+
+#: admin/partials/extension.php:101
+msgid ""
+"Automatically generating the CSV report Send an email with report attachment "
+"based on the scheduled time."
+msgstr ""
+
+#: admin/partials/extension.php:102
+msgid ""
+"Option to create more than one scheduling event to get different enquiry "
+"form data report."
+msgstr ""
+
+#: admin/partials/extension.php:103
+msgid "Option to select report datasheet columns from enquiry form field."
+msgstr ""
+
+#: admin/partials/extension.php:104
+msgid ""
+"Provision to filter the data while creating the scheduled event for the "
+"particular report."
+msgstr ""
+
+#: admin/partials/extension.php:105
+msgid ""
+"You can manage the email content by defining TO, FROM and email body content "
+"for each scheduling event."
+msgstr ""
+
+#: admin/partials/extension.php:106
+msgid ""
+"The added schedule event will be added to WordPress cron schedule and "
+"accordingly will be fire at the scheduled time."
+msgstr ""
+
+#: admin/partials/extension.php:111 admin/partials/extension.php:136
+#: admin/partials/extension.php:158 admin/partials/extension.php:181
+msgid "Get Now"
+msgstr ""
+
+#: admin/partials/extension.php:121
+msgid "Advanced CF7 DB - GDPR compliant"
+msgstr ""
+
+#: admin/partials/extension.php:123
+msgid ""
+"This plugin assists website and web-shop owners to comply with European "
+"privacy regulations known as GDPR."
+msgstr ""
+
+#: admin/partials/extension.php:127
+msgid ""
+"Compatible with the latest WordPress version 4.9.6 and later for GDPR "
+"compliances. Meets with the new regulations for the data to be handled."
+msgstr ""
+
+#: admin/partials/extension.php:128
+msgid ""
+"Individual CF7 form wise settings to show the personal data on user’s "
+"request."
+msgstr ""
+
+#: admin/partials/extension.php:129
+msgid "Erase only the CF7 form personal data, that are required."
+msgstr ""
+
+#: admin/partials/extension.php:130
+msgid ""
+"Site owners can export a ZIP file containing a user’s personal data, "
+"including data collected by Advanced CF7 DB plugin."
+msgstr ""
+
+#: admin/partials/extension.php:131
+msgid ""
+"Site owners can erase a user’s personal data, including data collected by "
+"Advanced CF7 DB plugin."
+msgstr ""
+
+#: admin/partials/extension.php:146
+msgid "Advanced CF7 DB - User Access Manager"
+msgstr ""
+
+#: admin/partials/extension.php:148
+msgid ""
+"This is an add-on of Advanced Cf7 DB, It allows administrators to securely "
+"manage access to contact form DB for all the users.Administrator can provide "
+"access to individual users OR based on user Role and accordingly user can "
+"view or edit the contact form DB."
+msgstr ""
+
+#: admin/partials/extension.php:152
+msgid ""
+"Provide access of contact form 7 DB to View & Update data to individual "
+"users OR based on user Role."
+msgstr ""
+
+#: admin/partials/extension.php:153
+msgid "Provide access of Single/Multiple forms to single user."
+msgstr ""
+
+#: admin/partials/extension.php:168
+msgid "Advanced CF7 DB - Reply Back"
+msgstr ""
+
+#: admin/partials/extension.php:170
+msgid ""
+"This plugin fulfills the feature to reply back to the users. It is simple to "
+"use and no extra hardwork required to rely back to the users. Just a click, "
+"enter your data and submit, your user will be replied by you. Its that easy "
+"and simple to use."
+msgstr ""
+
+#: admin/partials/extension.php:174
+msgid "Reply back to your users."
+msgstr ""
+
+#: admin/partials/extension.php:175
+msgid "Compatible with every versions of Advanced CF7 DB."
+msgstr ""
+
+#: admin/partials/extension.php:176
+msgid "Easy to install and use."
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:61
+msgid "Import Setting"
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:66
+msgid "Import Settings"
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:102
+msgid "Field Setting"
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:106
+msgid "Field name"
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:107
+msgid "Type"
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:109
+msgid "Match CSV Column"
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:139
+msgid "submit_ip"
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:140 admin/partials/import_cf7_csv.php:145
+msgid "text"
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:144
+msgid "submit_time"
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:146
+msgid "Submitted"
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:153
+msgid "Note:"
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:153
+msgid ""
+"If selected date format isn't matched with import sheet entry then consider "
+"today date."
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:166
+msgid "Upload CSV :"
+msgstr ""
+
+#: admin/partials/import_cf7_csv.php:174
+msgid "Import Data"
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:4
+msgid "Un-authorized access!"
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:9
+msgid "Try to do un-authorized access!"
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:24
+#: admin/partials/import_cf7_entry.class.php:25
+#: admin/partials/import_cf7_entry.class.php:29
+msgid "Something may be wrong. Please try again."
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:43
+msgid "First select any form then import sheet."
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:79
+msgid "Status"
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:202
+msgid "This entry is not insert in Database."
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:213
+msgid "New"
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:213
+msgid "data submitted"
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:216
+msgid ""
+"Uploaded file column names and field setting CSV key names are not matched."
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:220
+msgid "Please check uploaded file columns or field setting CSV match keys."
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:224
+#: admin/partials/import_cf7_entry.class.php:228
+msgid "Something may be wrong, Please try again later."
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:232
+msgid "Please upload only CSV file format."
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:238
+msgid "Total"
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:238
+msgid "errors are reported."
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:253
+msgid "Unable to open file!"
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:262
+msgid "You can download the error file from"
+msgstr ""
+
+#: admin/partials/import_cf7_entry.class.php:262
+msgid "here"
+msgstr ""
+
+#: admin/partials/shortcode.php:53 admin/partials/shortcode.php:58
+msgid "Display Enquiry"
+msgstr ""
+
+#: admin/partials/shortcode.php:54 admin/partials/shortcode.php:288
+msgid "Ban IP"
+msgstr ""
+
+#: admin/partials/shortcode.php:55 admin/partials/shortcode.php:302
+msgid "Actions & Filters"
+msgstr ""
+
+#: admin/partials/shortcode.php:59
+msgid ""
+"You can display all contact form submission data on front end side of "
+"website to place the short codes."
+msgstr ""
+
+#: admin/partials/shortcode.php:60
+msgid ""
+"You can place these short codes in any page OR use to \"do_shortcode\" "
+"function to execute from php files."
+msgstr ""
+
+#: admin/partials/shortcode.php:61
+msgid "Ex."
+msgstr ""
+
+#: admin/partials/shortcode.php:62
+msgid "You can use below options in short codes:"
+msgstr ""
+
+#: admin/partials/shortcode.php:65
+msgid "Parameter"
+msgstr ""
+
+#: admin/partials/shortcode.php:66
+msgid "Description"
+msgstr ""
+
+#: admin/partials/shortcode.php:67
+msgid "Example"
+msgstr ""
+
+#: admin/partials/shortcode.php:71
+msgid "FORM ID"
+msgstr ""
+
+#: admin/partials/shortcode.php:73
+msgid "You can add form id to display the form data."
+msgstr ""
+
+#: admin/partials/shortcode.php:81
+msgid "You need to add multiple form ids to display multiple form data."
+msgstr ""
+
+#: admin/partials/shortcode.php:91 admin/partials/shortcode.php:164
+#: admin/partials/shortcode.php:185 admin/partials/shortcode.php:205
+#: admin/partials/shortcode.php:225 admin/partials/shortcode.php:255
+msgid "Note:-"
+msgstr ""
+
+#: admin/partials/shortcode.php:92
+msgid ""
+"If you don't pass id in it or keep empty than output will have all forms "
+"data."
+msgstr ""
+
+#: admin/partials/shortcode.php:98
+msgid "SHOW"
+msgstr ""
+
+#: admin/partials/shortcode.php:100
+msgid ""
+"You need to add the columns names with form ids to display on front end side"
+msgstr ""
+
+#: admin/partials/shortcode.php:101
+msgid ""
+"This will display only 1 column for form 2 data, and all columns for form 3 "
+"data."
+msgstr ""
+
+#: admin/partials/shortcode.php:109
+msgid "You can also add multiple columns to display multiple form data."
+msgstr ""
+
+#: admin/partials/shortcode.php:110
+msgid "This will display only 1 column for form 2 and form 3 data."
+msgstr ""
+
+#: admin/partials/shortcode.php:117
+msgid "HIDE"
+msgstr ""
+
+#: admin/partials/shortcode.php:119
+msgid "You can specify particular columns which you won't like to display"
+msgstr ""
+
+#: admin/partials/shortcode.php:120
+msgid ""
+"It means that to display all columns except 1 column (\"your-name\") for "
+"form 2 data, and all columns for form 3 data."
+msgstr ""
+
+#: admin/partials/shortcode.php:128
+msgid "You can also add multiple columns to don't display multiple form data."
+msgstr ""
+
+#: admin/partials/shortcode.php:129
+msgid ""
+"This will display all columns except 1 column (\"your-name\") for form 2 "
+"data, and all columns except 1 column (\"your-email\") for form 3 data."
+msgstr ""
+
+#: admin/partials/shortcode.php:136
+msgid "SEARCH"
+msgstr ""
+
+#: admin/partials/shortcode.php:138
+msgid "You can search by keyword."
+msgstr ""
+
+#: admin/partials/shortcode.php:139
+msgid "It will display all submitted data with value like \"test@gmail.com\"."
+msgstr ""
+
+#: admin/partials/shortcode.php:146
+msgid "DATE"
+msgstr ""
+
+#: admin/partials/shortcode.php:148
+msgid "You can search by date using date parameters."
+msgstr ""
+
+#: admin/partials/shortcode.php:149
+msgid ""
+"It is required to pass \"start-end date\". If any one date will be mentioned "
+"then it doesn't work."
+msgstr ""
+
+#: admin/partials/shortcode.php:154
+msgid ""
+"It means that to display all submitted data with submit time in between "
+"\"01/09/2017\" and \"01/10/2018\"."
+msgstr ""
+
+#: admin/partials/shortcode.php:165
+msgid ""
+"This parameter will have effect if start date and end date both given with "
+"proper format."
+msgstr ""
+
+#: admin/partials/shortcode.php:166
+msgid "Both date should be in \"dd/mm/YYYY\" format."
+msgstr ""
+
+#: admin/partials/shortcode.php:172
+msgid "ID"
+msgstr ""
+
+#: admin/partials/shortcode.php:174
+msgid "You can add id to the table tag of output data."
+msgstr ""
+
+#: admin/partials/shortcode.php:175
+msgid "This will add id to the table."
+msgstr ""
+
+#: admin/partials/shortcode.php:186 admin/partials/shortcode.php:206
+#: admin/partials/shortcode.php:226 admin/partials/shortcode.php:256
+msgid "This parameter will have effect only when format \"Table\" is given."
+msgstr ""
+
+#: admin/partials/shortcode.php:192
+msgid "CLASS"
+msgstr ""
+
+#: admin/partials/shortcode.php:194
+msgid "You can add classes to the table tag of output data."
+msgstr ""
+
+#: admin/partials/shortcode.php:195
+msgid "This will add classes to the table."
+msgstr ""
+
+#: admin/partials/shortcode.php:212
+msgid "STYLE"
+msgstr ""
+
+#: admin/partials/shortcode.php:214
+msgid "You can add style to the table tag of output data."
+msgstr ""
+
+#: admin/partials/shortcode.php:215
+msgid "This will add style to the table."
+msgstr ""
+
+#: admin/partials/shortcode.php:227
+msgid "Style will be added as inline style."
+msgstr ""
+
+#: admin/partials/shortcode.php:233
+msgid "HEADER"
+msgstr ""
+
+#: admin/partials/shortcode.php:235
+msgid ""
+"You can add custom header which will be displayed as title for every table. "
+"Headers must be used with form id to to affect the output data."
+msgstr ""
+
+#: admin/partials/shortcode.php:236
+msgid ""
+"This will display \"Form Header Text 1\" as title for form 2 data. Form 3 "
+"data title will be form name."
+msgstr ""
+
+#: admin/partials/shortcode.php:244
+msgid ""
+"You can add multiple columns which will be displayed for multiple form data."
+msgstr ""
+
+#: admin/partials/shortcode.php:245
+msgid ""
+"This will display \"Form Header Text 1\" as title for form 2 data and \"Form "
+"Header Text 2\" as title for Form 3 data."
+msgstr ""
+
+#: admin/partials/shortcode.php:257
+msgid "If header is not passed than it will use form title."
+msgstr ""
+
+#: admin/partials/shortcode.php:263
+msgid "DISPLAY"
+msgstr ""
+
+#: admin/partials/shortcode.php:265
+msgid "You can select the output type from following types :"
+msgstr ""
+
+#: admin/partials/shortcode.php:270
+msgid "This will output the short code as a <b>table</b> structure."
+msgstr ""
+
+#: admin/partials/shortcode.php:278
+msgid "This will output the short code as a data <b>count</b> only."
+msgstr ""
+
+#: admin/partials/shortcode.php:289
+msgid "You can use below short code to skip saving of IP address :"
+msgstr ""
+
+#: admin/partials/shortcode.php:292
+msgid "Skip Saving Of IP Address"
+msgstr ""
+
+#: admin/partials/shortcode.php:295
+msgid "OR"
+msgstr ""
+
+#: admin/partials/shortcode.php:296
+msgid "Note"
+msgstr ""
+
+#: admin/partials/shortcode.php:296
+msgid "You need to add this code in function file to skip saving IP address."
+msgstr ""
+
+#: admin/partials/shortcode.php:303
+msgid "Here a list of actions and filters added is given."
+msgstr ""
+
+#: admin/partials/shortcode.php:304
+msgid "You can use below hooks as per your requirement at your own risk."
+msgstr ""
+
+#: admin/partials/shortcode.php:305
+msgid "Actions"
+msgstr ""
+
+#: includes/vsz-cf7-db-function.php:316
+msgid "Multiple entry start from new line"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Advanced CF7 DB"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/advanced-cf7-db/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Save all contact form 7 submitted data to the database, View, Export, "
+"ordering, Change field labels, Import data using CSV very easily."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Vsourz Digital"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.vsourz.com"
+msgstr ""

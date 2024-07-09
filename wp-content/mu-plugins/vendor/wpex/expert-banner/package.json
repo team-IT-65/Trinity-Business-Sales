@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@wordpress/icons": "^9.20.0",
+    "@wordpress/scripts": "^25.4.0"
+  },
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "devDependencies": {
+    "@wordpress/i18n": "^4.27.0"
+  }
+}

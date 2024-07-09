@@ -1,0 +1,11 @@
+{
+    "name": "godaddy/mwc-core",
+    "description": "Simplified eCommerce for WordPress by GoDaddy.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4 <8.3"
+    }
+}

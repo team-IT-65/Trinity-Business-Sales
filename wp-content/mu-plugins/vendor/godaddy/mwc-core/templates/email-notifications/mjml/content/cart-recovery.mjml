@@ -1,0 +1,77 @@
+{{#if content}}
+    <mj-section css-class="body" padding-top="40px" padding-bottom="0px" {{#if body.backgroundColor}}background-color="{{body.backgroundColor}}"{{/if}}>
+        <mj-column width="78%">
+                <mj-text mj-class="body-color body-font body-font-size no-padding" padding-top="0" padding-right="0" padding-bottom="0" padding-left="0" line-height="20px" font-family="GD Sherpa" font-weight="500" font-size="14px" color="#111">
+                    {{{content}}}
+                </mj-text>
+        <mj-column>
+    </mj-section>
+{{/if}}
+
+<mj-section css-class="body" mj-class="body-color body-font body-font-family" padding-top="40px" padding-bottom="0px" {{#if body.backgroundColor}}background-color="{{body.backgroundColor}}"{{/if}}>
+    <mj-column>
+        <mj-text mj-class="body-color body-font body-font-size" padding-top="0" padding-bottom="0" align="center" line-height="28px" font-weight="500" font-family="GD Sherpa" font-size="20px" color="#111">
+            Cart summary
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-wrapper css-class="body" mj-class="body-color body-font body-font-family" padding-top="32px" padding-right="11%" padding-bottom="0" padding-left="11%" {{#if body.backgroundColor}}background-color="{{body.backgroundColor}}"{{/if}}>
+    {{#if internal.cart_details.line_items}}
+        {{#each internal.cart_details.line_items}}
+            <mj-section border="1px solid #D6D6D6" border-bottom="none" padding-top="24px" padding-right="40px" padding-bottom="24px" padding-left="40px">
+                <mj-column width="30%">
+                    {{#if product.image.src}}
+                        <mj-image src={{product.image.src}} width="106px" height="106px" padding="0"/>
+                    {{/if}}
+                </mj-column>
+                <mj-column width="70%">
+                    {{#if product.name}}
+                        <mj-text mj-class="body-color body-font body-font-size" padding-top="0" padding-right="0" padding-bottom="0" padding-left="40px" line-height="28px" font-weight="600" font-size="18px" font-family="GD Sherpa">
+                            {{#if product.permalink}}
+                                <a href={{product.permalink}}>
+                                    {{{product.name}}}
+                                </a>
+                            {{else}}
+                                {{{product.name}}}
+                            {{/if}}
+                        </mj-text>
+                    {{/if}}
+                    {{#if quantity}}
+                        <mj-text mj-class="body-color body-font body-font-size" padding-top="16px" padding-right="0" padding-bottom="0" padding-left="40px" line-height="20px" font-weight="500" font-size="16px" font-family="GD Sherpa" color="#111">
+                            Quantity: {{{quantity}}}
+                        </mj-text>
+                    {{/if}}
+                    {{#if total_formatted}}
+                        <mj-text mj-class="body-color body-font body-font-size" padding-top="16px" padding-right="0" padding-bottom="0" padding-left="40px" line-height="20px" font-weight="500" font-size="16px" font-family="GD Sherpa" color="#111">
+                            {{{total_formatted}}}
+                        </mj-text>
+                    {{/if}}
+                </mj-column>
+            </mj-section>
+        {{/each}}
+    {{/if}}
+    {{#if internal.cart_details.total}}
+        <mj-section border="1px solid #D6D6D6" padding="0">
+            <mj-column>
+                <mj-text mj-class="body-color body-font body-font-size" align="center" padding-top="16px" padding-bottom="16px" line-height="24px" font-weight="900" font-family="GD Sherpa" font-size="18px">
+                    Cart total: {{{internal.cart_details.total_formatted}}}
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    {{/if}}
+</mj-wrapper>
+
+<mj-section css-class="body" mj-class="body-color body-font body-font-family" padding-top="32px" padding-bottom="0" {{#if body.backgroundColor}}background-color="{{body.backgroundColor}}"{{/if}}>
+    <mj-column width="78%">
+        {{#if buttonText}}
+            <mj-button {{#if internal.cart_details.cart_recovery_link}}href={{internal.cart_details.cart_recovery_link}}{{/if}} border-radius="2px" padding="0" background-color="#BADBFB" color="#000" line-height="16px" font-family="Open Sans" font-size="14px">
+                {{{buttonText}}}
+            </mj-button>
+        {{/if}}
+        {{#if additionalContent}}
+            <mj-text mj-class="body-color body-font body-font-size" padding-top="56px" padding-right="0" padding-bottom="80px" padding-left="0" line-height="20px" font-weight="500" font-family="GD Sherpa" font-size="13px" color="#111">
+                {{{additionalContent}}}
+            </mj-text>
+        {{/if}}
+    </mj-column>
+</mj-section>

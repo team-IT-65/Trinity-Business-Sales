@@ -1,0 +1,433 @@
+@media (min-width: 767px) {
+  .retail_review_inner .slick-slide .elementor-widget-wrap:hover .retail_review_desc {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    background: #24b4e0;
+    z-index: 9;
+    padding: 32px 20px;
+    transform: translatey(0);
+    transition: transform 0.3s linear;
+  }
+
+}
+@media (max-width: 1500px) {
+  .commercial_right .elementor-widget-wrap {
+    padding: 15px 20px !important;
+  }
+  .auction_right .elementor-widget-wrap {
+    padding: 0 20px !important;
+  }
+}
+@media (max-width: 1400px) {
+  .sec_title .elementor-heading-title,
+  .home_specialist_trinity_sector_inner .elementor-inner-column .elementor-image-box-content .elementor-image-box-title,
+  .home_hero_sec .n2-ss-slide h2.n2-ss-item-content {
+    font-size: 39px !important;
+  }
+  .sec_subtitle p,
+  .sec_subtitle .elementor-heading-title,
+  .home_business_sales_inner .elementor-image-box-title,
+  .about_us_inner .elementor-image-box-title,
+  .sec_subtitle h4,
+  .sec_subtitle .elementor-widget-container {
+    font-size: 22px !important;
+  }
+  .home_welcome_sell_left .elementor-widget-text-editor:last-child p {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 1300px) {
+  .trinity-header-nav ul.hfe-nav-menu li {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .sec_para p,
+  .home_business_sales_inner .elementor-image-box-description,
+  .about_us_inner .elementor-image-box-description,
+  .trinity-header-nav ul.hfe-nav-menu li a.hfe-menu-item,
+  .sec_para .elementor-widget-container {
+    font-size: 16px !important;
+  }
+  .home_welcome_sell_left .elementor-widget-text-editor:last-child p {
+    font-size: 20px !important;
+  }
+  .home_find_business_acq_right .elementor-widget-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .home_find_business_acq_right .elementor-widget-heading .elementor-widget-container {
+    padding-top: 30px !important;
+  }
+  .home_find_business_acq_right .elementor-widget-button .elementor-widget-container {
+    padding-bottom: 30px !important;
+  }
+  .auction_left_img img {
+    width: 100% !important;
+  }
+  .retail_single_col p {
+    font-size: 24px;
+  }
+  .buying_map_svg svg {
+    transform-origin: top left;
+  }
+  .buying_map_svg {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 1150px) {
+  .selling_business_right {
+    min-width: 365px;
+  }
+  .selling_middle_banner_right {
+    min-width: 355px;
+  }
+}
+@media (max-width: 1100px) {
+  .trinity-header-nav ul.hfe-nav-menu li {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .buying_map_svg {
+    padding-left: 70px;
+  }
+}
+@media (max-width: 1050px) {
+  .trinity-header-nav ul.hfe-nav-menu li {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .trinity-header-nav .hfe-dropdown.menu-is-active {
+    position: fixed !important;
+    top: 50px !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .trinity-header-nav .hfe-dropdown.menu-is-active .hfe-nav-menu {
+    align-content: flex-start !important;
+  }
+  .trinity-header-nav .hfe-nav-menu__toggle.hfe-active-menu {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    background: #000;
+    text-align: right;
+    border-radius: 0;
+  }
+  html.active_menu {
+    overflow: hidden;
+  }
+  .trinity-header-nav ul.hfe-nav-menu li {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border-bottom: 0 !important;
+  }
+  .trinity-header-nav ul.hfe-nav-menu li a.hfe-menu-item {
+    padding: 16px 24px !important;
+    font-size: 22px !important;
+  }
+  .trinity-header-nav ul.hfe-nav-menu li a.hfe-menu-item,
+  .trinity-header-nav ul.hfe-nav-menu li.current-menu-item a.hfe-menu-item {
+    border-bottom: 1px solid rgba(76, 76, 76, 0.5) !important;
+  }
+  .trinity-header-nav ul.hfe-nav-menu {
+    padding-bottom: 30px;
+  }
+  .trinity-header-nav {
+    overflow-x: hidden;
+  }
+  .hfe-site-logo-img {
+    width: 150px;
+  }
+  .header_logo {
+    width: 170px !important;
+  }
+  .header_menu {
+    width: calc(100% - 170px) !important;
+  }
+  .home_hero_sec .n2-ss-slide {
+    /* min-height: 350px !important; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .sec_title .elementor-heading-title,
+  .home_specialist_trinity_sector_inner .elementor-inner-column .elementor-image-box-content .elementor-image-box-title,
+  .home_hero_sec .n2-ss-slide h2.n2-ss-item-content {
+    font-size: 34px !important;
+  }
+  .home_welcome_sell_left .elementor-widget-text-editor p {
+    margin-bottom: 15px;
+  }
+  .home_find_business_acq_right .sec_subtitle .elementor-widget-container {
+    font-size: 20px !important;
+  }
+  .commercial_right .elementor-widget-wrap {
+    padding: 50px 20px 0 !important;
+  }
+  .retail_single_col p {
+    font-size: 22px;
+  }
+  .retail_single_col .elementor-widget-wrap {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .retail_single_col .sec_title h2.elementor-heading-title {
+    font-size: 30px !important;
+  }
+  .retail_review_inner .slick-track {
+    gap: 0;
+  }
+  .retail_review_inner .slick-track .slick-slide {
+    padding: 0 15px;
+  }
+  .buying_map_svg {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .trinity-header-nav ul.hfe-nav-menu li a.hfe-menu-item {
+    /* font-size: 14px !important; */
+  }
+  .trinity-header-nav ul.hfe-nav-menu li {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+@media (max-width: 900px) {
+  .buying_map_svg {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 870px) {
+  .buying_map_svg svg {
+    transform: scale(0.5);
+  }
+  .buying_map_svg p,
+  .buying_map_svg {
+    height: 580px;
+  }
+}
+@media (max-width: 800px) {
+  .trinity-header-nav ul.hfe-nav-menu li {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+@media (max-width: 767px) {
+  .sec_title .elementor-heading-title,
+  .home_specialist_trinity_sector_inner .elementor-inner-column .elementor-image-box-content .elementor-image-box-title,
+  .home_hero_sec .n2-ss-slide h2.n2-ss-item-content {
+    font-size: 28px !important;
+  }
+  .home_business_sales_inner .elementor-column .elementor-widget-image-box,
+  .about_us_inner .elementor-column .elementor-widget-image-box,
+  .home_specialist_trinity_sector_inner .elementor-widget-image-box {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .home_business_sales_inner .elementor-column .elementor-widget-image-box img,
+  .about_us_inner .elementor-column .elementor-widget-image-box img {
+    width: 100%;
+  }
+  .home_find_business_acq_right .sec_subtitle .elementor-widget-container {
+    font-size: 18px !important;
+  }
+  .home_contact_form form .wpcf7-acceptance label .wpcf7-list-item-label {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .sec_subtitle p,
+  .sec_subtitle .elementor-heading-title,
+  .home_business_sales_inner .elementor-image-box-title,
+  .about_us_inner .elementor-image-box-title,
+  .sec_subtitle h4,
+  .sec_subtitle .elementor-widget-container {
+    font-size: 20px !important;
+  }
+  .review_inner .slick-track {
+    display: flex;
+  }
+  .review_inner .slick-track .slick-slide {
+    height: auto;
+  }
+  .review_inner .slick-track .slick-slide .elementor-widget-wrap {
+    height: 100%;
+  }
+  .home_welcome_sell_left .elementor-widget-text-editor:last-child p {
+    font-size: 18px !important;
+  }
+/*   .home_hero_sec .n2-ss-slide .n2-ss-button-container a {
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+  } */
+	.home_hero_sec .n2-ss-slide .slider_contact_btn .n2-ss-button-container a {
+    	padding: 10px 48px !important;
+    	font-size: 14px !important;
+  	}
+	.home_hero_sec .n2-ss-slide .slider_buy_btn .n2-ss-button-container a {
+    	padding: 10px 20px !important;
+    	font-size: 14px !important;
+  	}
+  .commercial_right .elementor-widget-wrap {
+    padding: 50px 20px 30px !important;
+  }
+  .auction_right .elementor-widget-wrap {
+    padding-bottom: 0 !important;
+  }
+  .our_partner_grid img {
+    height: 100px !important;
+  }
+  .retail_single_col h2.elementor-heading-title {
+    height: auto !important;
+  }
+  .review_inner .slick-track .slick-slide .elementor-widget-wrap {
+    max-width: 300px;
+    margin: 0 auto !important;
+  }
+  .retail_single_col {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .home_registor .home_registor_form_main p .wpcf7-not-valid-tip,
+  .home_registor .home_registor_form_main p .wpcf7-form-control-wrap input + .wpcf7-not-valid-tip,
+  .home_contact_form form input + .wpcf7-not-valid-tip,
+  .home_contact_form form textarea + .wpcf7-not-valid-tip {
+    font-size: 14px;
+  }
+  .retail_review_inner .slick-track {
+    gap: 0;
+  }
+  .retail_review_inner .slick-slider {
+    max-width: 300px !important;
+    margin: 0 auto;
+  }
+  .retail_review_inner .retail_review_desc p {
+    font-size: 16px !important;
+  }
+  .retail_review_inner .slick-track .slick-slide {
+    padding: 0;
+  }
+  .retail_review_read_more {
+    display: block;
+  }
+  .retail_review_desc.active {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    background: #24b4e0;
+    z-index: 9;
+    padding: 32px 20px;
+    transform: translatey(0);
+    transition: transform 0.3s linear;
+  }
+  .retail_review_desc.active .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+  .retail_review_desc.active .close svg {
+    width: 25px;
+    height: 25px;
+  }
+  .buying_form_left,
+  .buying_map_svg {
+    width: 100%;
+  }
+  .buying_map_svg {
+    padding-left: 0;
+  }
+  .buying_form_wrap {
+    flex-direction: column;
+  }
+  .buying_map_svg svg {
+    transform-origin: top center;
+  }
+}
+@media (max-width: 600px) {
+  .buying_map_svg svg {
+    margin-left: -30px;
+  }
+}
+@media (max-width: 575px) {
+  .home_registor .home_registor_form_main p .wpcf7-form-control-wrap {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  .home_registor .home_registor_form_main p {
+    justify-content: center;
+  }
+  .home_registor .home_registor_form_main .wpcf7-spinner {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translate(140px, 0);
+  }
+  .selling_business_right,
+  .selling_middle_banner_right,
+  .selling_middle_banner_right {
+    min-width: 100%;
+  }
+  .home_registor .home_registor_form_main p .wpcf7-not-valid-tip {
+    position: static;
+  }
+  .buying_map_svg svg {
+    margin-left: -40px;
+  }
+}
+@media (max-width: 550px) {
+  .buying_map_svg svg {
+    margin-left: -60px;
+  }
+}
+@media (max-width: 500px) {
+  .buying_map_svg svg {
+    margin-left: -70px;
+  }
+}
+@media (max-width: 480px) {
+  .our_partner_grid img {
+    height: 80px !important;
+  }
+  .buying_map_svg svg {
+    margin-left: -85px;
+  }
+}
+@media (max-width: 460px) {
+  .buying_map_svg svg {
+    margin-left: -100px;
+  }
+}
+@media (max-width: 440px) {
+  .buying_map_svg svg {
+    margin-left: -120px;
+  }
+}
+@media (max-width: 410px) {
+  .buying_map_svg svg {
+    margin-left: -130px;
+  }
+}
+@media (max-width: 400px) {
+  .buying_map_svg svg {
+    margin-left: 0;
+    transform-origin: top left;
+  }
+}
+@media (max-width: 355px) {
+  .buying_map_svg svg {
+    transform: scale(0.45);
+  }
+  .buying_map_svg p,
+  .buying_map_svg {
+    height: 550px;
+  }
+}

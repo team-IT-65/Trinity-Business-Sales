@@ -1,0 +1,32 @@
+{
+  "name" : "wpex/stock-photos",
+  "description": "Import beautiful, curated stock photos for your website.",
+  "type" : "wordpress-plugin",
+  "license" : "GPL-2.0+",
+  "require": {},
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
+    "phpcompatibility/phpcompatibility-wp": "^2.1",
+    "wp-coding-standards/wpcs": "^2.1"
+  },
+  "extra": {
+    "installer-paths": {
+      "vendor/{$name}/": ["type:wordpress-plugin"]
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "npm install"
+    ],
+    "build-release": [
+      "git archive $(git branch --show-current) -o \"../stock-photos-$(cat stock-photos.php | grep Version | sed 's/* Version://g' | awk '{$1=$1};1').zip\""
+    ],
+    "lint": "@php ./vendor/bin/phpcs"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

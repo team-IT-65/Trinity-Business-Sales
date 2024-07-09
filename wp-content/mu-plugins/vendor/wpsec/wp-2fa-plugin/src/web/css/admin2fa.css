@@ -1,0 +1,308 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.button,
+.button-primary,
+.button-secondary {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	padding: 0 10px 1px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	white-space: nowrap;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.button,
+.button-secondary {
+	color: #555;
+	border-color: #cccccc;
+	background: #f7f7f7;
+	-webkit-box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba(0, 0, 0, .08);
+	box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba(0, 0, 0, .08);
+	vertical-align: top;
+}
+
+.wpsec-2fa-text-align-center {
+	text-align: center;
+}
+
+.wpsec-2fa-display-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+#wpsec_2fa_admin_app_2_page_buttons{
+	display: flex;
+}
+
+.wpsec-2fa-admin-active-icon-color {
+	color: #3582c4;
+}
+
+.button-primary {
+	background: #2ea2cc;
+	border-color: #0074a2;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120, 200, 230, 0.5), 0 1px 0 rgba(0, 0, 0, .15);
+	box-shadow: inset 0 1px 0 rgba(120, 200, 230, 0.5), 0 1px 0 rgba(0, 0, 0, .15);
+	color: #fff;
+	text-decoration: none;
+}
+
+.wpsec_2fa_hidden {
+	display: none !important;
+}
+
+.wpsec_2fa_mail_template_link {
+	padding-left: 1%;
+	text-decoration: none;
+}
+
+.wpsec_2fa_roles_list_div {
+	padding-left: 1%;
+}
+
+.wpsec_2fa_mail_template_link:hover {
+	text-decoration: underline;
+}
+
+.wpsec_2fa_email_template_button {
+	height: 3vw;
+	margin-right: 3% !important;
+}
+
+.wpsec_2fa_disabled_div {
+	pointer-events: none;
+	opacity: 0.4;
+}
+
+.wpsec_2fa_email_template_inputs {
+	width: 6vw;
+	margin-bottom: 7px;
+	margin-top: 27px;
+}
+
+.wpsec_2fa_settings_header {
+	margin: 0 0 1rem;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.wpsec_2fa_settings_tab {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	padding: 0 0.1rem 0.8rem;
+	margin-right: 45px;
+	transition: box-shadow .5s ease-in-out;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+.wpsec_2fa_position {
+	display: flex;
+	margin-top: 5%;
+	justify-content: center;
+	align-items: center;
+}
+
+.wpsec_2fa_single_method_position {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	min-width: 250px;
+	max-width: 300px;
+}
+
+.wpsec_2fa_single_method_icon_position {
+	margin-right: 6%;
+}
+
+.wpsec_2fa_single_method_button_position {
+	text-align: center !important;
+}
+
+.wpsec_2fa_configuration {
+	width: 500px;
+}
+
+.wpsec_2fa_settings_tab.active {
+	box-shadow: inset 0 -4px #3582c4;
+	font-weight: bold;
+}
+
+.wpsec_2fa_icons {
+	font-size: 36px !important;
+	height: auto !important;
+	vertical-align: bottom !important;
+}
+
+.wpsec_2fa_single_method_space {
+	margin-left: 20%;
+}
+
+#wpsec_2fa_mail_code_check::-webkit-input-placeholder {
+	opacity: 0.2;
+	border-color: #3582c4;
+}
+
+.wpsec_2fa_code_input_field {
+	font-size: 20px;
+	width: 100%;
+	margin-bottom: 10rem;
+}
+
+.wpsec_2fa_admin_dialog_position{
+	position: fixed;
+	left: 33%;
+	top: 5%;
+	width: 35%;
+}
+
+.wpsec_2fa_email_template_position {
+	left: 5%;
+	top: 5%;
+	width: 60vw;
+}
+
+.wpsec_2fa_dialog_buttons {
+	padding: 0.5rem 1.5rem !important;
+	height: 100%;
+}
+
+#wpsec_2fa_cancel_mail_template_button{
+	border: none;
+	background: center;
+	width: 7vw;
+}
+
+.wpsec_2fa_paragraf_style {
+	font-size: 13px !important;
+	margin: 0;
+}
+
+#wpsec_2fa_email_template_dialog{
+	width: 60%;
+}
+
+#wpsec_2fa_email_template_close_button{
+	color: white;
+	top:-19%;
+}
+
+.wpsec_2fa_flex {
+	display: flex;
+}
+
+.wpsec_email_template_components {
+	width: 90% !important;
+}
+
+#wpsec_2fa_email_template_vertical_line{
+	border-left: 1px solid #dcdcde;
+	padding-bottom: 30vw;
+}
+
+#wpsec_2fa_email_template_background{
+	z-index: 100101;
+}
+
+#wpsec_2fa_shortcodes_div {
+	width: 35%;
+}
+
+.wpsec_2fa_email_template_vertical_line_div {
+	margin-right: 5%;
+}
+
+.wpsec_2fa_dot {
+	height: 9px;
+	width: 9px;
+	background-color: #bbb;
+	border-radius: 50%;
+}
+
+.wpsec_2fa_admin_progress_bar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	padding: 0 3rem;
+	flex: 0.8;
+}
+.one_button_only {
+	justify-content: flex-end;
+}
+
+.wpsec_2fa_dot_active{
+	background-color: #3582c4;
+}
+
+.wpsec_2fa_methods_wrapper {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+}
+
+.wpsec-2fa-admin-2fa-modal-error {
+	height: 27px;
+	padding-top: 2% !important;
+}
+
+.wpsec-2fa-underline-text {
+	text-decoration: underline;
+}
+
+.wpsec_2fa_info_icon {
+	margin: 1em 0;
+}
+
+.wpsec_2fa_info_icon:before {
+	content: "\f348";
+	padding: 0 5px 0 0;
+	color: #646970;
+	font: normal 20px/1 dashicons;
+	display: inline-block;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	text-decoration: none!important;
+	vertical-align: top;
+}
+
+.wpsec_error_code_margin {
+	margin-bottom: 3% !important;
+}
+
+.wpsec_2fa_small_spacing {
+	margin: 1.5rem 0;
+}
+
+.wpsec_2fa_button_menu{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 2rem;
+}
+
+label {
+	cursor: default;
+}
+
+.language-switcher{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

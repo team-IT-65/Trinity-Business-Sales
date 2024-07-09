@@ -1,0 +1,21 @@
+{
+	"phpVersion": "8.0",
+	"plugins": [
+		".",
+		"https://downloads.wordpress.org/plugin/coblocks.latest-stable.zip"
+	],
+	"themes": [
+		"https://downloads.wordpress.org/theme/go.latest-stable.zip"
+	],
+	"config": {
+		"GD_RUM_ENABLED": true,
+		"GD_TEMP_DOMAIN": "wpnux-testing.local"
+	},
+	"env": {
+		"tests": {
+			"config": {
+				"GD_TEMP_DOMAIN": false
+			}
+		}
+	}
+}

@@ -1,0 +1,115 @@
+#login {
+	width: auto;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 500px;
+}
+
+#login-wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	max-width: 350px;
+}
+
+.login form {
+	width: 280px;
+}
+
+.wpsec_2fa_login_text {
+	font-size: 15px;
+}
+
+#wpsec_2fa_login_icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem 0.5rem;
+	gap: 2rem;
+}
+
+.wpsec-2fa-hidden {
+	display: none !important;
+}
+
+.wpsec_2fa_login_disable_icon {
+	opacity: 0.4;
+	margin-right: 10%;
+}
+
+.wpsec_2fa_login_icon {
+	text-align: center;
+}
+
+#wpsec_2fa_login_vertical_line{
+	border-bottom: 1px solid #dcdcde;
+	width: 100%;
+	margin-bottom: 0.5rem;
+}
+
+.wpsec_2fa_login_icon_active {
+	margin-right: 10%;
+	color: #2271b1;
+}
+
+.wpsec_2fa_login_code_check::-webkit-input-placeholder {
+	opacity: 0.2;
+	border-color: #3582c4;
+}
+
+#wpsec_2fa_login_mail_check_second_conf {
+	margin-top: 1rem;
+}
+
+.wpsec-2fa-qr-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.wpsec_2fa_help_notification_section svg {
+	cursor: pointer;
+	margin-top: 0.5rem;
+}
+
+.wpsec_2fa_help_notification_text {
+	position: absolute;
+	top: 9rem;
+	left: 12rem;
+	background: #2B2B2B;
+	color: #FFF;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	display: none;
+	max-width: 350px;
+	gap: 1rem;
+}
+
+.wpsec_2fa_help_notification_section svg:hover + .wpsec_2fa_help_notification_text {
+	display: flex;
+}
+
+.notice-error, div.error {
+	border-left-color: #d63638 !important;
+	padding-top: 10px !important;
+}
+
+.notice, div.error, div.updated {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-left-width: 4px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	padding: 1px 12px;
+	height: 30px;
+}
+
+@media screen and (max-height: 550px){
+	.wpsec_2fa_help_notification_text {
+		top: 5rem;
+	}
+}

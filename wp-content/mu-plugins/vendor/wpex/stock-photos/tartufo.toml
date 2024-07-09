@@ -1,0 +1,12 @@
+[tool.tartufo]
+exclude-path-patterns = [
+    {path-pattern = 'tartufo\.toml'},
+    {path-pattern = 'package-lock\.json'},
+    {path-pattern = 'composer\.lock'},
+    {path-pattern = 'assets/js/stock-photos.js', reason='generated file'},
+    {path-pattern = 'tests/codeception/acceptance/AcceptanceTester\.php', reason='generated file'}
+]
+exclude-signatures = [
+    {signature = '797d1cb7c0cf84ab2424baf4427711ab24c5c08472d0b70a88a5e83982dad36a'},
+    {signature = '10d6742baadc70197f130a73f4788c0e9a6cbaaa237feaa3bb4b5a051595aadf'},
+]

@@ -1,0 +1,47 @@
+{
+  "description": "WPSEC - WordPress 2FA Plugin (Plugin that secure login with 2FA)",
+  "name": "wpsec/wp-2fa-plugin",
+  "type": "wordpress-plugin",
+  "repositories": [
+	{
+	  "type": "vcs",
+	  "url": "git@github.com:gdcorp-wordpress/wpsec-wp-plugin-tests.git"
+	}
+  ],
+  "require": {
+	"ext-zlib": "*",
+	"ext-json": "*"
+  },
+  "require-dev": {
+	"wpsec/wp-mock-test-abstraction": "dev-main",
+	"phpunit/phpunit": "^9.5",
+	"wp-coding-standards/wpcs": "^2.3.0",
+	"squizlabs/php_codesniffer": "3.*",
+	"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+	"10up/wp_mock": "0.4.2"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Wpsec\\twofa\\": "src/"
+	}
+  },
+  "autoload-dev": {
+	"psr-4": {
+	  "Wpsec\\twofa\\Tests\\": "tests/"
+	}
+  },
+  "scripts": {
+	"phpunit": "vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml",
+	"test-coverage-github": "vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml --coverage-text",
+	"test-coverage-html": "XDEBUG_MODE=coverage vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml --coverage-html=html-coverage",
+	"phpcs": "./vendor/bin/phpcs --standard=phpcs.ruleset.xml src/",
+	"phpcs-test": "./vendor/bin/phpcs --standard=phpcs.ruleset.xml tests/",
+	"phpcbf": "./vendor/bin/phpcbf --standard=phpcs.ruleset.xml src/",
+	"phpcbf-test": "./vendor/bin/phpcbf --standard=phpcs.ruleset.xml tests/"
+  },
+  "config": {
+	"allow-plugins": {
+	  "dealerdirect/phpcodesniffer-composer-installer": true
+	}
+  }
+}

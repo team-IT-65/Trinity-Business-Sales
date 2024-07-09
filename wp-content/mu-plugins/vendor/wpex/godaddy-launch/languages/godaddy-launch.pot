@@ -1,0 +1,271 @@
+# Copyright (c) 2022 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: GoDaddy Launch 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/godaddy-wordpress/godaddy-launch/issues\n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-04-04T22:36:37+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: godaddy-launch\n"
+
+#. Plugin Name of the plugin
+msgid "GoDaddy Launch"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://godaddy.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "GoDaddy Launch Description"
+msgstr ""
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://godaddy.com"
+msgstr ""
+
+#: includes/LiveSiteControl/LiveSiteControlProvider.php:129
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-dashboard-notice.js:18
+#: src/live-site-control/live-site-header-button.js:26
+msgid "Launch my site"
+msgstr ""
+
+#: includes/LiveSiteControl/template-coming-soon.php:64
+msgid "Great things are coming soon<"
+msgstr ""
+
+#: includes/LiveSiteControl/template-coming-soon.php:65
+#: build/live-site-control.js:1
+#: src/live-site-control/coming-soon-template.js:8
+msgid "Stay tuned"
+msgstr ""
+
+#: includes/PublishGuide/PublishGuideServiceProvider.php:162
+msgid "Site logo."
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-confirm-modal.js:13
+msgid "Let's take your site live!"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-confirm-modal.js:15
+msgid "Are you ready?"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-confirm-modal.js:17
+msgid "You've checked all of your copy and images"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-confirm-modal.js:18
+msgid "You've previewed desktop and mobile versions of your site"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-confirm-modal.js:19
+msgid "You've connected a domain related to your business idea"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-confirm-modal.js:27
+msgid "I'm ready!"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-confirm-modal.js:33
+msgid "Not yet"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-dashboard-notice.js:12
+msgid "Read to show your website to the world?"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-dashboard-notice.js:13
+msgid "When you go live your website will be visible to the public. Don't worry you can still control individual pages through the Pages tab."
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-header-button.js:34
+msgid "Going live for the world to see"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-header-button.js:35
+msgid "When you're ready for visitors, press the \"launch my site\" button here."
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-header-button.js:40
+msgid "Got it"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-launch-success-modal.js:18
+msgid "Copy the URL"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-launch-success-modal.js:26
+msgid "Copied!"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-launch-success-modal.js:33
+msgid "Good work! Your site is live."
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-launch-success-modal.js:34
+msgid "Show it off to all of your family, friends, and customers."
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-launch-success-modal.js:46
+msgid "View Site"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-launch-success-modal.js:61
+msgid "Dismiss"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/coming-soon-template.js:7
+msgid "Great things are coming soon"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-option.js:35
+msgid "Site Preview"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-now-modal.js:34
+msgid "When should we launch your website for visitors?"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-now-modal.js:38
+msgid "Visitors can see your site now and any edits you make"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-now-modal.js:42
+msgid "Launch Now"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-now-modal.js:46
+msgid "Visitors will see a coming soon page until you go live"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-now-modal.js:50
+msgid "Launch Later"
+msgstr ""
+
+#: build/live-site-control.js:1
+#: src/live-site-control/live-site-now-modal.js:59
+msgid "Continue"
+msgstr ""
+
+#: build/publish-guide.js:1
+#: src/publish-guide/publish-guide-header-button.js:20
+msgid "Publish Guide"
+msgstr ""
+
+#: build/publish-guide.js:1
+#: build/publish-guide.js:2
+#: src/publish-guide/index.js:261
+#: src/publish-guide/publish-guide-header-button.js:30
+#: src/publish-guide/publish-guide-tooltip.js:25
+msgid "Get Started"
+msgstr ""
+
+#: build/publish-guide.js:1
+#: src/publish-guide/success-view.js:54
+msgid "Your site is live on"
+msgstr ""
+
+#: build/publish-guide.js:1
+#: src/publish-guide/success-view.js:67
+msgid "Time to celebrate and"
+msgstr ""
+
+#: build/publish-guide.js:1
+#: src/publish-guide/success-view.js:67
+msgid "share the great news."
+msgstr ""
+
+#: build/publish-guide.js:1
+#: src/publish-guide/success-view.js:79
+#: src/publish-guide/success-view.js:93
+#: src/publish-guide/success-view.js:108
+msgid "Check out my new website!"
+msgstr ""
+
+#. translators: %1$s is a placeholder for the site's url.
+#: build/publish-guide.js:2
+#: src/publish-guide/success-view.js:111
+msgid "I just published my website at %1$s, come check it out and let me know what you think!"
+msgstr ""
+
+#: build/publish-guide.js:2
+#: src/publish-guide/success-view.js:130
+msgid "Give feedback"
+msgstr ""
+
+#: build/publish-guide.js:2
+#: src/publish-guide/success-view.js:139
+msgid "Hide this guide"
+msgstr ""
+
+#: build/publish-guide.js:2
+#: src/publish-guide/index.js:42
+msgid "Once you're done selecting your site style and colors, click here to continue publishing your site."
+msgstr ""
+
+#: build/publish-guide.js:2
+#: src/publish-guide/index.js:44
+msgid "Getting Started Guide"
+msgstr ""
+
+#: build/publish-guide.js:2
+#: src/publish-guide/index.js:49
+msgid "This button will open up your page manager."
+msgstr ""
+
+#: build/publish-guide.js:2
+#: src/publish-guide/index.js:51
+msgid "Open the site content tab"
+msgstr ""
+
+#: build/publish-guide.js:2
+#: src/publish-guide/index.js:56
+msgid "If you want to update the feel of a site and bring in your own brand, this is a good place to start."
+msgstr ""
+
+#: build/publish-guide.js:2
+#: src/publish-guide/index.js:58
+msgid "Change any global styles here"
+msgstr ""
+
+#: build/publish-guide.js:2
+#: src/publish-guide/index.js:263
+msgid "Give your site a strong start."
+msgstr ""

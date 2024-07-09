@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<phpunit
+	bootstrap="phpunit/bootstrap.php"
+	backupGlobals="false"
+	colors="true"
+	convertErrorsToExceptions="true"
+	convertNoticesToExceptions="true"
+	convertWarningsToExceptions="true"
+	convertDeprecationsToExceptions="true"
+	>
+	<testsuites>
+		<testsuite name="default">
+			<directory suffix=".php">./phpunit/</directory>
+		</testsuite>
+	</testsuites>
+
+	<filter>
+		<whitelist addUncoveredFilesFromWhitelist="true">
+			<directory>./</directory>
+			<exclude>
+				<directory suffix=".php">build</directory>
+				<directory suffix=".php">node_modules</directory>
+				<directory suffix=".php">phpunit</directory>
+				<directory suffix=".php">vendor</directory>
+				<directory suffix=".php">includes/Dependencies</directory>
+			</exclude>
+		</whitelist>
+	</filter>
+
+	<php>
+		<env name="WP_PHPUNIT__TESTS_CONFIG" value="phpunit-wp-config.php" />
+	</php>
+</phpunit>

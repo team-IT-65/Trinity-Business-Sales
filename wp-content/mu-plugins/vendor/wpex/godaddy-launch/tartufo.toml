@@ -1,0 +1,13 @@
+[tool.tartufo]
+exclude-path-patterns = [
+    {path-pattern = 'tartufo\.toml'},
+    {path-pattern = 'package-lock\.json'},
+    {path-pattern = 'composer\.lock'},
+    {path-pattern = 'yarn\.lock'},
+    {path-pattern = 'build/*'},
+    {path-pattern = 'vendor/*'},
+    {path-pattern = '(.*)\.svg'},
+    {path-pattern = 'languages/(.*)\.json'},
+]
+exclude-signatures = [
+]

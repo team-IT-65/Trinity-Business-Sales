@@ -1,0 +1,1768 @@
+[
+  {
+    "long_name": "Active Life",
+    "parents": [],
+    "name": "Active Life",
+    "display_name": "Active Life",
+    "keywords": {
+      "activities": 0.3,
+      "life": 0.1,
+      "bicycle": 0.0053,
+      "assorted": 0.037,
+      "gym": 0.0021,
+      "recreational": 0.0119,
+      "activ": 0.3,
+      "outdoors": 0.0056,
+      "active": 0.3,
+      "amusement": 0.0031
+    },
+    "str_id": "active",
+    "popularity": 0.1597,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Amateur Sports Teams",
+    "parents": [
+      "active"
+    ],
+    "name": "Amateur Sports Teams",
+    "display_name": "Amateur Sports Teams",
+    "keywords": {
+      "leagues": 0.0104,
+      "amateur": 0.6667,
+      "gym": 0.0035,
+      "fitness": 0.0045,
+      "alley": 0.0208,
+      "teams": 0.1111,
+      "clubs": 0.0044,
+      "stadium": 0.0089,
+      "bowling": 0.0104,
+      "sports": 0.0123,
+      "university": 0.0033
+    },
+    "str_id": "amateursportsteams",
+    "popularity": 0.0017,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Amusement Parks",
+    "parents": [
+      "active"
+    ],
+    "name": "Amusement Parks",
+    "display_name": "Amusement Park",
+    "keywords": {
+      "places": 0.0139,
+      "amus": 0.125,
+      "parks": 0.0185,
+      "theme": 0.1,
+      "arcades": 0.025,
+      "amusement": 0.125
+    },
+    "str_id": "amusementparks",
+    "popularity": 0.002,
+    "children": [
+      "amusementridesupplier",
+      "waterpark",
+      "themepark",
+      "ghosttown",
+      "fountain"
+    ],
+    "wsb7_equivalents": [
+      1219
+    ]
+  },
+  {
+    "long_name": "Active Life > Amusement Parks > Amusement Ride Supplier",
+    "parents": [
+      "amusementparks"
+    ],
+    "name": "Amusement Ride Supplier",
+    "display_name": "Amusement Ride Supplier",
+    "keywords": {
+      "supplier": 0.0024,
+      "ride": 0.0526,
+      "amus": 0.1111,
+      "amusement": 0.1111
+    },
+    "str_id": "amusementridesupplier",
+    "popularity": 0.0003,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Amusement Parks > Fountain",
+    "parents": [
+      "amusementparks"
+    ],
+    "name": "Fountain",
+    "display_name": "Fountain",
+    "keywords": {
+      "fountain": 0.3333
+    },
+    "str_id": "fountain",
+    "popularity": 0.0002,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Amusement Parks > Ghost Town",
+    "parents": [
+      "amusementparks"
+    ],
+    "name": "Ghost Town",
+    "display_name": "Ghost Town",
+    "keywords": {
+      "ghost": 0.75,
+      "town": 0.25
+    },
+    "str_id": "ghosttown",
+    "popularity": 0.0002,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Amusement Parks > Theme Park",
+    "parents": [
+      "amusementparks"
+    ],
+    "name": "Theme Park",
+    "display_name": "Theme Park",
+    "keywords": {
+      "theme": 0.3,
+      "parks": 0.0185
+    },
+    "str_id": "themepark",
+    "popularity": 0.0003,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Amusement Parks > Water Park",
+    "parents": [
+      "amusementparks"
+    ],
+    "name": "Water Park",
+    "display_name": "Water Park",
+    "keywords": {
+      "water": 0.0306,
+      "slides": 1,
+      "parks": 0.0185
+    },
+    "str_id": "waterpark",
+    "popularity": 0.0005,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Aquariums",
+    "parents": [
+      "active"
+    ],
+    "name": "Aquariums",
+    "display_name": "Aquarium",
+    "keywords": {
+      "aquariumspublic": 0.0909,
+      "wildlife": 0.026,
+      "aquariums": 0.3333,
+      "gardens": 0.0035,
+      "zoos": 0.0455,
+      "aquarium": 0.3333,
+      "sanctuaries": 0.0364,
+      "botanical": 0.0227,
+      "public": 0.0018
+    },
+    "str_id": "aquariums",
+    "popularity": 0.0011,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Archery & Shooting",
+    "parents": [
+      "active"
+    ],
+    "name": "Archery & Shooting",
+    "display_name": "Archery & Shooting",
+    "keywords": {
+      "ranges": 0.0714,
+      "archeri": 0.25,
+      "shooting": 0.1429,
+      "archery": 0.25
+    },
+    "str_id": "archeryshooting",
+    "popularity": 0.002,
+    "children": [
+      "archery",
+      "gunclub"
+    ],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Archery & Shooting > Archery",
+    "parents": [
+      "archeryshooting"
+    ],
+    "name": "Archery",
+    "display_name": "Archery",
+    "keywords": {
+      "ranges": 0.0536,
+      "archeri": 0.3333,
+      "shooting": 0.0357,
+      "archery": 0.3333
+    },
+    "str_id": "archery",
+    "popularity": 0.0005,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Archery & Shooting > Gun Club",
+    "parents": [
+      "archeryshooting"
+    ],
+    "name": "Gun Club",
+    "display_name": "Gun Club",
+    "keywords": {
+      "bullet": 1,
+      "gun": 0.25,
+      "ranges": 0.0476,
+      "clubs": 0.0118,
+      "shooting": 0.0476,
+      "guns": 0.25
+    },
+    "str_id": "gunclub",
+    "popularity": 0.0008,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Badminton",
+    "parents": [
+      "active"
+    ],
+    "name": "Badminton",
+    "display_name": "Badminton",
+    "keywords": {
+      "racquet": 0.0625,
+      "badminton": 0.5,
+      "court": 0.0144,
+      "sports": 0.0031
+    },
+    "str_id": "badminton",
+    "popularity": 0.0003,
+    "children": [
+      "badmintoncourt"
+    ],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Badminton > Badminton Court",
+    "parents": [
+      "badminton"
+    ],
+    "name": "Badminton Court",
+    "display_name": "Badminton Court",
+    "keywords": {
+      "facilities": 0.0069,
+      "recreation": 0.0108,
+      "badminton": 0.375,
+      "court": 0.0385,
+      "sports": 0.0041
+    },
+    "str_id": "badmintoncourt",
+    "popularity": 0.0002,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Beaches",
+    "parents": [
+      "active"
+    ],
+    "name": "Beaches",
+    "display_name": "Beaches",
+    "keywords": {
+      "beach": 0.25,
+      "public": 0.0196,
+      "beaches": 0.25
+    },
+    "str_id": "beaches",
+    "popularity": 0.0006,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Bike Rentals",
+    "parents": [
+      "active"
+    ],
+    "name": "Bike Rentals",
+    "display_name": "Bike Rentals",
+    "keywords": {
+      "renting": 0.013,
+      "bicyclesrenting": 0.0714,
+      "service": 0.0001,
+      "share": 0.0143,
+      "bicycles": 0.0714,
+      "bike": 0.1875,
+      "rentals": 0.0081,
+      "biking": 0.1875
+    },
+    "str_id": "bikerentals",
+    "popularity": 0.0031,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Boating",
+    "parents": [
+      "active"
+    ],
+    "name": "Boating",
+    "display_name": "Boating",
+    "keywords": {
+      "watercraft": 0.0118,
+      "excursions": 0.0588,
+      "sailing": 0.0392,
+      "travel": 0.0025,
+      "boatsexcursions": 0.0588,
+      "marinas": 0.0074,
+      "boating": 0.0645,
+      "charters": 0.0084,
+      "boats": 0.0645,
+      "campground": 0.0098,
+      "ferry": 0.0098,
+      "boat": 0.0645
+    },
+    "str_id": "boating",
+    "popularity": 0.0054,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Bowling",
+    "parents": [
+      "active"
+    ],
+    "name": "Bowling",
+    "display_name": "Bowling",
+    "keywords": {
+      "bowl": 0.3333,
+      "alleys": 0.2,
+      "centers": 0.0026,
+      "bowling": 0.3333
+    },
+    "str_id": "bowling",
+    "popularity": 0.0022,
+    "children": [],
+    "wsb7_equivalents": [
+      1209
+    ]
+  },
+  {
+    "long_name": "Active Life > Boxing Gym",
+    "parents": [
+      "active"
+    ],
+    "name": "Boxing Gym",
+    "display_name": "Boxing Gym",
+    "keywords": {
+      "box": 0.15,
+      "boxing": 0.15,
+      "gyms": 0.0556,
+      "centers": 0.0032,
+      "fitness": 0.0357
+    },
+    "str_id": "boxinggym",
+    "popularity": 0.0009,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Camps",
+    "parents": [
+      "active"
+    ],
+    "name": "Camps",
+    "display_name": "Camps",
+    "keywords": {
+      "camps": 0.1667,
+      "camp": 0.1667,
+      "campgrounds": 0.0833,
+      "parks": 0.0046,
+      "outdoors": 0.0125
+    },
+    "str_id": "camps",
+    "popularity": 0.0006,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Car Racing Track",
+    "parents": [
+      "active"
+    ],
+    "name": "Car Racing Track",
+    "display_name": "Car Racing Track",
+    "keywords": {
+      "car": 0.0212,
+      "tracks": 0.0741,
+      "race": 0.0833,
+      "racing": 0.0833,
+      "racetrack": 0.5
+    },
+    "str_id": "carracingtrack",
+    "popularity": 0.0003,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Chess Instructor",
+    "parents": [
+      "active"
+    ],
+    "name": "Chess Instructor",
+    "display_name": "Chess Instructor",
+    "keywords": {
+      "instructors": 0.0238,
+      "tutoring": 0.0714,
+      "chess": 0.75,
+      "education": 0.0208
+    },
+    "str_id": "chessinstructor",
+    "popularity": 0.0002,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Climbing",
+    "parents": [
+      "active"
+    ],
+    "name": "Climbing",
+    "display_name": "Climbing",
+    "keywords": {
+      "climbing": 0.25,
+      "climb": 0.25,
+      "gym": 0.0185,
+      "mountain": 0.0333,
+      "rock": 0.0256
+    },
+    "str_id": "climbing",
+    "popularity": 0.0006,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Country Club",
+    "parents": [
+      "active"
+    ],
+    "name": "Country Club",
+    "display_name": "Country Club",
+    "keywords": {
+      "countri": 0.375,
+      "clubs": 0.0118,
+      "country": 0.375
+    },
+    "str_id": "countryclub",
+    "popularity": 0.0005,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Disc Golf",
+    "parents": [
+      "active"
+    ],
+    "name": "Disc Golf",
+    "display_name": "Disc Golf",
+    "keywords": {
+      "disc": 0.25,
+      "golf": 0.0435
+    },
+    "str_id": "discgolf",
+    "popularity": 0.0003,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Diving",
+    "parents": [
+      "active"
+    ],
+    "name": "Diving",
+    "display_name": "Diving",
+    "keywords": {
+      "dive": 0.1429,
+      "spot": 0.0167,
+      "diving": 0.1429,
+      "scuba": 0.0556,
+      "snorkeling": 0.0556,
+      "swimming": 0.0093
+    },
+    "str_id": "diving",
+    "popularity": 0.0045,
+    "children": [
+      "scuba",
+      "freediving"
+    ],
+    "wsb7_equivalents": [
+      1228
+    ]
+  },
+  {
+    "long_name": "Active Life > Diving > Free Diving",
+    "parents": [
+      "diving"
+    ],
+    "name": "Free Diving",
+    "display_name": "Free Diving",
+    "keywords": {
+      "diving": 0.0714,
+      "free": 0.375
+    },
+    "str_id": "freediving",
+    "popularity": 0.0005,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Diving > Scuba Diving",
+    "parents": [
+      "diving"
+    ],
+    "name": "Scuba Diving",
+    "display_name": "Scuba Diving",
+    "keywords": {
+      "diving": 0.0714,
+      "instructor": 0.0119,
+      "scuba": 0.25,
+      "snorkeling": 0.0833
+    },
+    "str_id": "scuba",
+    "popularity": 0.0037,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Equestrian",
+    "parents": [
+      "active"
+    ],
+    "name": "Equestrian",
+    "display_name": "Equestrian",
+    "keywords": {
+      "riding": 0.0175,
+      "horse": 0.0056,
+      "equestrian": 0.5,
+      "service": 0.0001,
+      "horseback": 0.0556
+    },
+    "str_id": "equestrian",
+    "popularity": 0.0019,
+    "children": [
+      "rodeos",
+      "ponyrideservice"
+    ],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Equestrian > Pony Ride Service",
+    "parents": [
+      "equestrian"
+    ],
+    "name": "Pony Ride Service",
+    "display_name": "Pony Ride Service",
+    "keywords": {
+      "pony": 0.4444,
+      "rides": 0.0526,
+      "poni": 0.4444,
+      "service": 0.0007
+    },
+    "str_id": "ponyrideservice",
+    "popularity": 0.0006,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Equestrian > Rodeos",
+    "parents": [
+      "equestrian"
+    ],
+    "name": "Rodeos",
+    "display_name": "Rodeos",
+    "keywords": {
+      "rodeos": 0.5,
+      "rodeo": 0.5
+    },
+    "str_id": "rodeos",
+    "popularity": 0.0005,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fencing School",
+    "parents": [
+      "active"
+    ],
+    "name": "Fencing School",
+    "display_name": "Fencing School",
+    "keywords": {
+      "lessons": 0.0147,
+      "school": 0.0066,
+      "fenc": 0.1364,
+      "fencing": 0.1364,
+      "instructors": 0.006,
+      "sports": 0.0031,
+      "active": 0.05
+    },
+    "str_id": "fencingschool",
+    "popularity": 0.0003,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fishing",
+    "parents": [
+      "active"
+    ],
+    "name": "Fishing",
+    "display_name": "Fishing",
+    "keywords": {
+      "ponds": 0.0065,
+      "charter": 0.0065,
+      "hunting": 0.0189,
+      "fish": 0.0513,
+      "spot": 0.0045,
+      "lakes": 0.0051,
+      "sites": 0.0035,
+      "fishing": 0.0513,
+      "guide": 0.0152,
+      "local": 0.0051,
+      "trips": 0.0076,
+      "travel": 0.0019
+    },
+    "str_id": "fishing",
+    "popularity": 0.0231,
+    "children": [
+      "fishingclub",
+      "fishingcharter",
+      "fishingcamp",
+      "fishingarea"
+    ],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fishing > Fishing Area",
+    "parents": [
+      "fishing"
+    ],
+    "name": "Fishing Area",
+    "display_name": "Fishing Area",
+    "keywords": {
+      "hunting": 0.0333,
+      "area": 0.0667,
+      "fish": 0.0385,
+      "sites": 0.0308,
+      "locations": 0.0222,
+      "fishing": 0.0385
+    },
+    "str_id": "fishingarea",
+    "popularity": 0.0009,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fishing > Fishing Camp",
+    "parents": [
+      "fishing"
+    ],
+    "name": "Fishing Camp",
+    "display_name": "Fishing Camp",
+    "keywords": {
+      "fish": 0.0385,
+      "camp": 0.0833,
+      "fishing": 0.0385
+    },
+    "str_id": "fishingcamp",
+    "popularity": 0.0011,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fishing > Fishing Charter",
+    "parents": [
+      "fishing"
+    ],
+    "name": "Fishing Charter",
+    "display_name": "Fishing Charter",
+    "keywords": {
+      "fish": 0.0385,
+      "charters": 0.0714,
+      "fishing": 0.0385,
+      "boat": 0.0161,
+      "guides": 0.1667
+    },
+    "str_id": "fishingcharter",
+    "popularity": 0.0158,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fishing > Fishing Club",
+    "parents": [
+      "fishing"
+    ],
+    "name": "Fishing Club",
+    "display_name": "Fishing Club",
+    "keywords": {
+      "club": 0.0118,
+      "fish": 0.0385,
+      "fishing": 0.0385
+    },
+    "str_id": "fishingclub",
+    "popularity": 0.0002,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction",
+    "parents": [
+      "active"
+    ],
+    "name": "Fitness & Instruction",
+    "display_name": "Fitness & Instruction",
+    "keywords": {
+      "fit": 0.1071,
+      "programs": 0.0079,
+      "personal": 0.0056,
+      "instruction": 0.0179,
+      "gyms": 0.0053,
+      "trainers": 0.0238,
+      "health": 0.0026,
+      "fitness": 0.1071,
+      "exercise": 0.0068,
+      "physical": 0.0048
+    },
+    "str_id": "fitness",
+    "popularity": 0.0833,
+    "children": [
+      "aerobicsinstructor",
+      "cricketclub",
+      "swimminglessons",
+      "pilates",
+      "taichi",
+      "healthtrainers",
+      "yoga",
+      "martialarts",
+      "dancestudio",
+      "boxing",
+      "bootcamps",
+      "gyms",
+      "barreclasses"
+    ],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Aerobics Instructor",
+    "parents": [
+      "fitness"
+    ],
+    "name": "Aerobics Instructor",
+    "display_name": "Aerobics Instructor",
+    "keywords": {
+      "aerob": 0.75,
+      "instructor": 0.0238,
+      "aerobics": 0.75
+    },
+    "str_id": "aerobicsinstructor",
+    "popularity": 0.0005,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Barre Classes",
+    "parents": [
+      "fitness"
+    ],
+    "name": "Barre Classes",
+    "display_name": "Barre Classes",
+    "keywords": {
+      "yoga": 0.0714,
+      "classes": 0.0909,
+      "barr": 0.25,
+      "pilates": 0.0714,
+      "barre": 0.25
+    },
+    "str_id": "barreclasses",
+    "popularity": 0.0011,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Boot Camps",
+    "parents": [
+      "fitness"
+    ],
+    "name": "Boot Camps",
+    "display_name": "Boot Camps",
+    "keywords": {
+      "camps": 0.0833,
+      "boot": 0.1875
+    },
+    "str_id": "bootcamps",
+    "popularity": 0.0036,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Boxing",
+    "parents": [
+      "fitness"
+    ],
+    "name": "Boxing",
+    "display_name": "Boxing",
+    "keywords": {
+      "box": 0.2,
+      "gym": 0.0185,
+      "boxing": 0.2,
+      "instruction": 0.006,
+      "combat": 0.0139
+    },
+    "str_id": "boxing",
+    "popularity": 0.0017,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Cricket Club",
+    "parents": [
+      "fitness"
+    ],
+    "name": "Cricket Club",
+    "display_name": "Cricket Club",
+    "keywords": {
+      "clubs": 0.0118,
+      "cricket": 0.375,
+      "sports": 0.0123
+    },
+    "str_id": "cricketclub",
+    "popularity": 0.0002,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Dance Studios",
+    "parents": [
+      "fitness"
+    ],
+    "name": "Dance Studios",
+    "display_name": "Dance Studio",
+    "keywords": {
+      "studios": 0.0385,
+      "dancing": 0.075,
+      "dance": 0.075,
+      "instruction": 0.0089,
+      "ballrooms": 0.0357,
+      "danc": 0.075,
+      "hall": 0.0104
+    },
+    "str_id": "dancestudio",
+    "popularity": 0.0068,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Gyms",
+    "parents": [
+      "fitness"
+    ],
+    "name": "Gyms",
+    "display_name": "Gym",
+    "keywords": {
+      "personal": 0.0026,
+      "gym": 0.1111,
+      "gyms": 0.1111,
+      "athletic": 0.0054,
+      "health": 0.0024,
+      "gymnasiums": 0.0652,
+      "fitness": 0.0124
+    },
+    "str_id": "gyms",
+    "popularity": 0.0132,
+    "children": [],
+    "wsb7_equivalents": [
+      1214,
+      1215,
+      1216
+    ]
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Martial Arts",
+    "parents": [
+      "fitness"
+    ],
+    "name": "Martial Arts",
+    "display_name": "Martial Arts",
+    "keywords": {
+      "arts": 0.0196,
+      "combat": 0.0078,
+      "martial": 0.1154,
+      "self": 0.0188,
+      "dojo": 0.0313,
+      "selfdefense": 0.0625,
+      "defense": 0.0313
+    },
+    "str_id": "martialarts",
+    "popularity": 0.0163,
+    "children": [
+      "martialartssupplystore",
+      "aikidoschool"
+    ],
+    "wsb7_equivalents": [
+      1237
+    ]
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Martial Arts > Aikido School",
+    "parents": [
+      "martialarts"
+    ],
+    "name": "Aikido School",
+    "display_name": "Aikido School",
+    "keywords": {
+      "karate": 0.0313,
+      "martial": 0.0192,
+      "school": 0.0066,
+      "aikido": 0.75,
+      "arts": 0.0049
+    },
+    "str_id": "aikidoschool",
+    "popularity": 0.0002,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Martial Arts > Martial Arts Supply Store",
+    "parents": [
+      "martialarts"
+    ],
+    "name": "Martial Arts Supply Store",
+    "display_name": "Martial Arts Supply Store",
+    "keywords": {
+      "martial": 0.0962,
+      "arts": 0.0196,
+      "supplies": 0.0031,
+      "store": 0.0008,
+      "supply": 0.0031
+    },
+    "str_id": "martialartssupplystore",
+    "popularity": 0.0006,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Pilates",
+    "parents": [
+      "fitness"
+    ],
+    "name": "Pilates",
+    "display_name": "Pilates",
+    "keywords": {
+      "yoga": 0.0612,
+      "pilates": 0.2857,
+      "studio": 0.011,
+      "pilat": 0.2857,
+      "barre": 0.0238
+    },
+    "str_id": "pilates",
+    "popularity": 0.006,
+    "children": [
+      "pilatesstudio"
+    ],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Pilates > Pilates Studio",
+    "parents": [
+      "pilates"
+    ],
+    "name": "Pilates Studio",
+    "display_name": "Pilates Studio",
+    "keywords": {
+      "studio": 0.0385,
+      "pilates": 0.2143,
+      "yoga": 0.0952,
+      "pilat": 0.2143,
+      "barre": 0.0556
+    },
+    "str_id": "pilatesstudio",
+    "popularity": 0.0028,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Swimming Lessons/Schools",
+    "parents": [
+      "fitness",
+      "specialtyschools"
+    ],
+    "name": "Swimming Lessons/Schools",
+    "display_name": "Swimming School",
+    "keywords": {
+      "swim": 0.0741,
+      "lessons": 0.0588,
+      "instruction": 0.0089,
+      "instructors": 0.0071,
+      "schools": 0.0044,
+      "active": 0.02,
+      "swimming": 0.0741
+    },
+    "str_id": "swimminglessons",
+    "popularity": 0.0015,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Tai Chi",
+    "parents": [
+      "fitness"
+    ],
+    "name": "Tai Chi",
+    "display_name": "Tai Chi",
+    "keywords": {
+      "chi": 0.5,
+      "tai": 0.75,
+      "combat": 0.0125,
+      "martial": 0.0154
+    },
+    "str_id": "taichi",
+    "popularity": 0.0014,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Trainers",
+    "parents": [
+      "fitness"
+    ],
+    "name": "Trainers",
+    "display_name": "Fitness Trainer",
+    "keywords": {
+      "trainer": 0.3333,
+      "personal": 0.0346,
+      "trainers": 0.3333,
+      "athletic": 0.0074,
+      "fitness": 0.0126,
+      "services": 0.0001,
+      "trainersfitness": 0.0588
+    },
+    "str_id": "healthtrainers",
+    "popularity": 0.0186,
+    "children": [],
+    "wsb7_equivalents": [
+      1217
+    ]
+  },
+  {
+    "long_name": "Active Life > Fitness & Instruction > Yoga",
+    "parents": [
+      "fitness"
+    ],
+    "name": "Yoga",
+    "display_name": "Yoga",
+    "keywords": {
+      "pilates": 0.0429,
+      "yoga": 0.2857,
+      "classes": 0.0091,
+      "therapy": 0.0063,
+      "barre": 0.0167,
+      "studio": 0.0077
+    },
+    "str_id": "yoga",
+    "popularity": 0.0164,
+    "children": [],
+    "wsb7_equivalents": [
+      1238
+    ]
+  },
+  {
+    "long_name": "Active Life > Go Karts",
+    "parents": [
+      "active"
+    ],
+    "name": "Go Karts",
+    "display_name": "Go Karts",
+    "keywords": {
+      "karts": 0.25,
+      "track": 0.0278,
+      "gokart": 0.0625,
+      "carts": 0.1563
+    },
+    "str_id": "gokarts",
+    "popularity": 0.0009,
+    "children": [
+      "gokarttrack"
+    ],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Go Karts > Go Kart Track",
+    "parents": [
+      "gokarts"
+    ],
+    "name": "Go Kart Track",
+    "display_name": "Go Kart Track",
+    "keywords": {
+      "kart": 0.25,
+      "tracks": 0.0556,
+      "cart": 0.0625,
+      "gocart": 0.25,
+      "race": 0.0208,
+      "gokart": 0.125
+    },
+    "str_id": "gokarttrack",
+    "popularity": 0.0003,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Golf",
+    "parents": [
+      "active"
+    ],
+    "name": "Golf",
+    "display_name": "Golf",
+    "keywords": {
+      "lessons": 0.0084,
+      "services": 0.0001,
+      "ranges": 0.0102,
+      "golf": 0.087,
+      "courses": 0.0635
+    },
+    "str_id": "golf",
+    "popularity": 0.0065,
+    "children": [
+      "golfcourses",
+      "golfinstruction"
+    ],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Golf > Golf Courses",
+    "parents": [
+      "golf"
+    ],
+    "name": "Golf Courses",
+    "display_name": "Golf Courses",
+    "keywords": {
+      "ranges": 0.0714,
+      "courses": 0.1111,
+      "golf": 0.0652
+    },
+    "str_id": "golfcourses",
+    "popularity": 0.0029,
+    "children": [
+      "publicgolfcourse",
+      "golfdrivingrange",
+      "privategolfcourse"
+    ],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Golf > Golf Courses > Golf Driving Range",
+    "parents": [
+      "golfcourses"
+    ],
+    "name": "Golf Driving Range",
+    "display_name": "Golf Driving Range",
+    "keywords": {
+      "ranges": 0.0476,
+      "golf": 0.058,
+      "driving": 0.1111
+    },
+    "str_id": "golfdrivingrange",
+    "popularity": 0.0008,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Golf > Golf Courses > Private Golf Course",
+    "parents": [
+      "golfcourses"
+    ],
+    "name": "Private Golf Course",
+    "display_name": "Private Golf Course",
+    "keywords": {
+      "courses": 0.0741,
+      "privat": 0.0784,
+      "golf": 0.0435,
+      "clubs": 0.0118,
+      "private": 0.0784
+    },
+    "str_id": "privategolfcourse",
+    "popularity": 0.0003,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Golf > Golf Courses > Public Golf Course",
+    "parents": [
+      "golfcourses"
+    ],
+    "name": "Public Golf Course",
+    "display_name": "Public Golf Course",
+    "keywords": {
+      "courses": 0.0741,
+      "golf": 0.0435,
+      "public": 0.0261,
+      "private": 0.0588
+    },
+    "str_id": "publicgolfcourse",
+    "popularity": 0.002,
+    "children": [],
+    "wsb7_equivalents": [
+      1218
+    ]
+  },
+  {
+    "long_name": "Active Life > Golf > Golf Instruction",
+    "parents": [
+      "golf"
+    ],
+    "name": "Golf Instruction",
+    "display_name": "Golf Instruction",
+    "keywords": {
+      "lessons": 0.0294,
+      "golf": 0.0652,
+      "instructor": 0.0119,
+      "instruction": 0.0179
+    },
+    "str_id": "golfinstruction",
+    "popularity": 0.0025,
+    "children": [],
+    "wsb7_equivalents": [
+      1230
+    ]
+  },
+  {
+    "long_name": "Active Life > Gun/Rifle Ranges",
+    "parents": [
+      "active"
+    ],
+    "name": "Gun/Rifle Ranges",
+    "display_name": "Gun/Rifle Range",
+    "keywords": {
+      "shooting": 0.0794,
+      "bullet": 1,
+      "galleries": 0.0185,
+      "gun": 0.2222,
+      "gunsmiths": 0.0556,
+      "ranges": 0.0476,
+      "rifle": 0.5,
+      "pistol": 0.1111,
+      "guns": 0.2222
+    },
+    "str_id": "gun_ranges",
+    "popularity": 0.0046,
+    "children": [
+      "skeetshootingrange"
+    ],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Gun/Rifle Ranges > Skeet Shooting Range",
+    "parents": [
+      "gun_ranges"
+    ],
+    "name": "Skeet Shooting Range",
+    "display_name": "Skeet Shooting Range",
+    "keywords": {
+      "range": 0.0476,
+      "shooting": 0.1429,
+      "skeet": 0.6667
+    },
+    "str_id": "skeetshootingrange",
+    "popularity": 0.0002,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Gymnastics",
+    "parents": [
+      "active"
+    ],
+    "name": "Gymnastics",
+    "display_name": "Gymnastics",
+    "keywords": {
+      "gymnast": 0.4,
+      "gym": 0.0069,
+      "classes": 0.0114,
+      "gymnastics": 0.4,
+      "centers": 0.0024
+    },
+    "str_id": "gymnastics",
+    "popularity": 0.0012,
+    "children": [],
+    "wsb7_equivalents": [
+      1234
+    ]
+  },
+  {
+    "long_name": "Active Life > Hang Gliding",
+    "parents": [
+      "active"
+    ],
+    "name": "Hang Gliding",
+    "display_name": "Hang Gliding",
+    "keywords": {
+      "gliding": 0.3333,
+      "instruction": 0.0179,
+      "hang": 0.5
+    },
+    "str_id": "hanggliding",
+    "popularity": 0.0002,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Hiking",
+    "parents": [
+      "active"
+    ],
+    "name": "Hiking",
+    "display_name": "Hiking",
+    "keywords": {
+      "backpacking": 0.1667,
+      "hiking": 0.5,
+      "area": 0.0222,
+      "trails": 0.0833,
+      "mountaineering": 0.0333,
+      "hike": 0.5,
+      "services": 0.0002
+    },
+    "str_id": "hiking",
+    "popularity": 0.0011,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Horse Racing",
+    "parents": [
+      "active"
+    ],
+    "name": "Horse Racing",
+    "display_name": "Horse Racing",
+    "keywords": {
+      "hors": 0.075,
+      "dog": 0.0167,
+      "racing": 0.0833,
+      "horse": 0.075,
+      "equestrian": 0.1667
+    },
+    "str_id": "horseracing",
+    "popularity": 0.0006,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Horseback Riding",
+    "parents": [
+      "active"
+    ],
+    "name": "Horseback Riding",
+    "display_name": "Horseback Riding",
+    "keywords": {
+      "lessons": 0.0039,
+      "horse": 0.0133,
+      "equestrian": 0.05,
+      "service": 0.0001,
+      "horseback": 0.375,
+      "riding": 0.0526
+    },
+    "str_id": "horsebackriding",
+    "popularity": 0.0057,
+    "children": [],
+    "wsb7_equivalents": [
+      4
+    ]
+  },
+  {
+    "long_name": "Active Life > Hot Air Balloons",
+    "parents": [
+      "active"
+    ],
+    "name": "Hot Air Balloons",
+    "display_name": "Hot Air Balloons",
+    "keywords": {
+      "balloons": 0.0833,
+      "hot": 0.0784,
+      "rides": 0.0526,
+      "air": 0.0435
+    },
+    "str_id": "hotairballoons",
+    "popularity": 0.0005,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Ice Skating Club",
+    "parents": [
+      "active"
+    ],
+    "name": "Ice Skating Club",
+    "display_name": "Ice Skating Club",
+    "keywords": {
+      "skating": 0.0625,
+      "organizations": 0.007,
+      "clubs": 0.0078,
+      "ice": 0.058,
+      "sports": 0.0062
+    },
+    "str_id": "iceskatingclub",
+    "popularity": 0.0002,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Ice Skating Instructor",
+    "parents": [
+      "active"
+    ],
+    "name": "Ice Skating Instructor",
+    "display_name": "Ice Skating Instructor",
+    "keywords": {
+      "skating": 0.0625,
+      "instructor": 0.0159,
+      "instruction": 0.0179,
+      "ice": 0.058
+    },
+    "str_id": "iceskatinginstructor",
+    "popularity": 0.0002,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Judo School",
+    "parents": [
+      "active"
+    ],
+    "name": "Judo School",
+    "display_name": "Judo School",
+    "keywords": {
+      "arts": 0.0049,
+      "judo": 0.75,
+      "combat": 0.0313,
+      "sports": 0.0031,
+      "martial": 0.0192,
+      "schools": 0.0066
+    },
+    "str_id": "judoschool",
+    "popularity": 0.0002,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Jujitsu School",
+    "parents": [
+      "active"
+    ],
+    "name": "Jujitsu School",
+    "display_name": "Jujitsu School",
+    "keywords": {
+      "arts": 0.0049,
+      "combat": 0.0156,
+      "karate": 0.0156,
+      "martial": 0.0192,
+      "jujitsu": 0.75,
+      "schools": 0.0066
+    },
+    "str_id": "jujitsuschool",
+    "popularity": 0.0009,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Kickboxing School",
+    "parents": [
+      "active"
+    ],
+    "name": "Kickboxing School",
+    "display_name": "Kickboxing School",
+    "keywords": {
+      "school": 0.0066,
+      "arts": 0.0049,
+      "karate": 0.0313,
+      "martial": 0.0192,
+      "kickboxing": 0.75,
+      "kickbox": 0.75
+    },
+    "str_id": "kickboxingschool",
+    "popularity": 0.0015,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Active Life > Kiteboarding",
+    "parents": [
+      "active"
+    ],
+    "name": "Kiteboarding",
+    "display_name": "Kiteboarding",
+    "keywords": {
+      "water": 0.0068,
+      "kiteboarding": 1,
+      "kiteboard": 1,
+      "kitesurfing": 0.3333,
+      "sports": 0.0041
+    },
+    "str_id": "kiteboarding",
+    "popularity": 0.0008,
+    "children": [],
+    "wsb7_equivalents": []
+  },
+  {
+    "long_name": "Restaurants",
+    "parents": [],
+    "name": "Restaurants",
+    "display_name": "Restaurant",
+    "keywords": {
+      "gourmet": 0.0556,
+      "foods": 0.0054,
+      "restaurants": 0.0075,
+      "restaur": 0.0075,
+      "specialty": 0.0167
+    },
+    "str_id": "restaurants",
+    "popularity": 0.2445,
+    "children": [
+      "diners",
+      "delis",
+      "hotdogs",
+      "ethiopian",
+      "creperies",
+      "comfortfood",
+      "czechslovakian",
+      "cuban",
+      "fishnchips",
+      "filipino",
+      "kosher",
+      "korean",
+      "latin",
+      "turkish",
+      "thai",
+      "vegan",
+      "ukrainian",
+      "vietnamese",
+      "vegetarian",
+      "catalan",
+      "cheesesteaks",
+      "chicken_wings",
+      "breakfast_brunch",
+      "italian",
+      "japanese",
+      "iberian",
+      "indpak",
+      "indonesian",
+      "irish",
+      "himalayan",
+      "hotdog",
+      "hotpot",
+      "hungarian",
+      "bangladeshi",
+      "hawaiian",
+      "halal",
+      "greek",
+      "gluten_free",
+      "german",
+      "gastropubs",
+      "french",
+      "raw_food",
+      "food_court",
+      "fondue",
+      "caribbean",
+      "cambodian",
+      "cajun",
+      "cafes",
+      "burmese",
+      "burgers",
+      "buffets",
+      "british",
+      "persian",
+      "peruvian",
+      "mexican",
+      "mideastern",
+      "moroccan",
+      "pakistani",
+      "modern_european",
+      "mongolian",
+      "brazilian",
+      "chinese",
+      "basque",
+      "belgian",
+      "brasseries",
+      "asianfusion",
+      "australian",
+      "austrian",
+      "laotian",
+      "mediterranean",
+      "malaysian",
+      "argentine",
+      "soup",
+      "southern",
+      "spanish",
+      "steak",
+      "sushi",
+      "taiwanese",
+      "tapas",
+      "tapasmallplates",
+      "tex-mex",
+      "african",
+      "afghani",
+      "tradamerican",
+      "newamerican",
+      "soulfood",
+      "arabian",
+      "russian",
+      "portuguese",
+      "polish",
+      "pizza",
+      "scottish",
+      "scandinavian",
+      "sandwiches",
+      "salad",
+      "singaporean",
+      "seafood",
+      "foodstands",
+      "bbq",
+      "obanzai",
+      "danish",
+      "valencian",
+      "anglerfish",
+      "kushiagekushiyaki",
+      "okonomiyaki",
+      "chesapeake",
+      "georgian",
+      "bistro",
+      "norwegian",
+      "swiss",
+      "galician",
+      "armenian",
+      "paraguayan",
+      "hoagie",
+      "cantabrian",
+      "easterneuropean",
+      "oden",
+      "tunisian",
+      "qubcois",
+      "navarraise",
+      "guatemalan",
+      "croatian",
+      "nuevolatino",
+      "icelandic",
+      "family",
+      "organic",
+      "panasian",
+      "asian",
+      "yemenite",
+      "canadian",
+      "roman",
+      "fugu",
+      "sobanoodleshop",
+      "tongue",
+      "chanko",
+      "venetian",
+      "modernbritish",
+      "andalusian",
+      "newzealand",
+      "midatlanticrestaurantus",
+      "kaiseki",
+      "healthfood",
+      "dumpling",
+      "panlatin",
+      "seychelles",
+      "unagi",
+      "tempura",
+      "dutch",
+      "californian",
+      "southeastasian",
+      "lobster",
+      "pacificrim",
+      "contemporarylouisiana",
+      "neapolitan",
+      "japanesesteakhouse",
+      "bargrillrestaurants",
+      "hunan",
+      "srilankan",
+      "swedish",
+      "costarican",
+      "alsace",
+      "americanrestaurants",
+      "snackbar",
+      "chophouse",
+      "polynesian",
+      "eritrean",
+      "asturian",
+      "european",
+      "newengland",
+      "uruguayan",
+      "maltese",
+      "tuscan",
+      "bulgarian",
+      "lithuanian",
+      "izakaya",
+      "floridian",
+      "turkmen",
+      "eclectic",
+      "continental",
+      "chilean",
+      "nicaraguan",
+      "romanian",
+      "mongolianbarbecue",
+      "honduran",
+      "uzbeki",
+      "noodleshop",
+      "syrian",
+      "pennsylvaniadutch",
+      "gyoza",
+      "sukiyakiandshabushabu",
+      "macrobiotic",
+      "teppanyaki",
+      "jamaicanrestaurants",
+      "madrilian",
+      "cajunrestaurant",
+      "castilian",
+      "yakiniku",
+      "ecuadorian",
+      "israeli",
+      "chicken",
+      "yakitori",
+      "finedining",
+      "welsh",
+      "sicilian",
+      "kazakhstani",
+      "serbian",
+      "ramen",
+      "oysterbar",
+      "southasian",
+      "pacificnorthwestrestaurantcanada",
+      "anago",
+      "tonkatsu",
+      "finnish",
+      "capeverdean",
+      "marche",
+      "jewish",
+      "provence",
+      "pacificnorthwestrestaurantus"
+    ],
+    "wsb7_equivalents": [
+      685,
+      686,
+      688
+    ]
+  }
+]
